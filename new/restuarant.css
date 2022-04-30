@@ -1,0 +1,136 @@
+body {
+  background-image: url("images/background2.jpeg");
+  background-color: darkslategray;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  
+}
+.navigation {
+  position:sticky;
+  top: 0px;
+  width: 100%;
+  z-index: 100px;
+}
+
+li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#motto{
+  float: left;
+  color: white;
+  padding: 10px 26px;
+  font-size: 29px;
+  font-family: 'Redressed', cursive; }
+.active {
+  background-color: #04aa6d;
+}
+
+h1 {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+article {
+  margin: 50px 70px 20px 20px;
+  background-color: burlywood;
+  float:left;
+  padding: 15px;
+  overflow:auto;
+}
+.schedule {
+  background-color: lightsteelblue;
+  width: 270px;
+  float: right;
+  margin-right: 7px;
+
+}
+
+figure {
+  width: 290px;
+  height: 220px;
+}
+.menuImage{
+  width: 290px;
+  height: 210px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 23px ;
+  text-decoration: none;
+}
+
+caption {
+  background-color: teal;
+  font-family: 'Redressed';
+  font-size: 20px;
+}
+table {
+  background-image: linear-gradient( 100deg,#5bfefc,#da56aa);
+  margin-left: auto;
+  margin-right: auto;
+}
+th{
+  padding: 10px 10px 0px 10px;
+}
+td {
+  padding: 10px;
+}
+.ivideo{
+  float: right;
+  margin-right: 7px;
+}
+
+footer {
+  background-color: #c4aead;
+  height: 58px; 
+  width: 100%;
+}
+
+.right {
+  margin-right: 40px;
+}
+.left {
+  text-decoration: none;
+  float: left;
+  font-size: 24px;
+  color: black;
+}
+
+.icon-style {
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 5px;}
+.to-top img {
+  height: 40px;
+}
+.to-top {
+  float: right;
+  margin: 10px 0px 0px 0px;
+}
+
+.top-button:hover{
+  transform: scale(1.1);
+}
+button {
+margin-top: 23px;
+border-left-style: solid;
+margin-left: 7px;
+}
